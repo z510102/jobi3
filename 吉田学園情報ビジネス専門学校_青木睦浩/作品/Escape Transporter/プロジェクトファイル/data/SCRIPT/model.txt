@@ -1,0 +1,524 @@
+//=============================================================================
+//
+//		スクリプトファイル	[model.txt]
+//		Author : OGASAWARA HYUGA
+//		Author : AOKI TOMOHIRO
+//
+//=============================================================================
+SCRIPT
+
+//-----------------------------------------------------------------------------
+// モデル数
+//-----------------------------------------------------------------------------
+NUM_MODEL = 10
+
+//-----------------------------------------------------------------------------
+// モデルファイル
+//-----------------------------------------------------------------------------
+MODEL_FILENAME = data/MODEL/BUILDING/building01.x				# [0]ビル
+MODEL_FILENAME = data/MODEL/BUILDING/building02.x				# [1]ビル
+MODEL_FILENAME = data/MODEL/SpaceShip.x							# [2]宇宙船
+MODEL_FILENAME = data/MODEL/FLOOR/Floor_Blue.x					# [3]床（青）
+MODEL_FILENAME = data/MODEL/FLOOR/Floor_Green.x					# [4]床（緑）
+MODEL_FILENAME = data/MODEL/FLOOR/Floor_Red.x					# [5]床（赤）
+MODEL_FILENAME = data/MODEL/FLOOR/Floor_Yellow.x				# [6]床（黄）
+MODEL_FILENAME = data/MODEL/FLOOR/Floor_Goal_Blue.x				# [7]ゴール床（青）
+MODEL_FILENAME = data/MODEL/FLOOR/Floor_Start_Green.x			# [8]スタート床（緑）
+
+STAGESET
+	MODELSET
+		TYPE = 2
+		POS = 0 300 7150
+		ROT = 0 89.55 0
+		SCALE = 1 1 1
+	END_MODELSET
+	
+	MODELSET
+		TYPE = 7
+		POS = 0 0 7300
+		ROT = 0 1.57 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 8
+		POS = 0 0 -400
+		ROT = 0 -1.57 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = -700 0 -70
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = -620 0 -380
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = -310 0 -540
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 0 0 -540
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 315 0 -540
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 700 0 -70
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 0
+		POS = 620 0 -380
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+
+
+
+
+	MODELSET
+		TYPE = 3
+		POS = 0 0 500
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = 350 0 600
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = -250 0 800
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 6
+		POS = -600 150 1000
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = -850 0 700
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = -1100 0 400
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 6
+		POS = 680 150 800
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = 350 0 1000
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = 100 0 1300
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = 1000 0 1000
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+
+
+
+
+	MODELSET
+		TYPE = 3
+		POS = -250 0 1200
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 6
+		POS = -150 150 1570
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = 350 0 1570
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 5
+		POS = -470 350 1770
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 6
+		POS = -820 150 1770
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 6
+		POS = -1030 150 1470
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = -1230 0 1150
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = 350 0 1900
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 6
+		POS = 700 150 1900
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 5
+		POS = 1000 350 1670
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+
+
+
+
+	MODELSET
+		TYPE = 3
+		POS = -470 0 2100
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = -800 0 2270
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 6
+		POS = 350 150 2200
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = 350 0 2520
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 6
+		POS = 330 150 2840
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = -1100 0 2500
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = -1100 0 2840
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 6
+		POS = -800 150 3040
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 6
+		POS = 0 150 3040
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 5
+		POS = -400 350 3040
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+
+
+
+
+	MODELSET
+		TYPE = 5
+		POS = 650 350 3040
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 6
+		POS = 870 150 2740
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = 930 0 2440
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = -400 0 3340
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = -400 0 3670
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = -400 0 4000
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 6
+		POS = 650 150 3340
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = 650 0 3670
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = 1000 0 3670
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = 1000 0 4000
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+
+
+
+
+	MODELSET
+		TYPE = 3
+		POS = -770 0 4000
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 6
+		POS = -770 150 4300
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 6
+		POS = -1070 150 4570
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = -30 0 4000
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 6
+		POS = -30 150 4300
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 5
+		POS = -30 350 4650
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = 650 0 4270
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 6
+		POS = 300 150 4470
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 6
+		POS = -30 150 5000
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = -30 0 5370
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+
+
+
+
+	MODELSET
+		TYPE = 3
+		POS = 370 0 5350
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = 750 0 5350
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 6
+		POS = 1130 150 5350
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 6
+		POS = 1130 150 5000
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 5
+		POS = 1130 350 4650
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = -30 0 5750
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+	MODELSET
+		TYPE = 3
+		POS = -30 0 6100
+		ROT = 0 0 0
+		SCALE = 1 1 1
+	END_MODELSET
+
+END_STAGESET
+
+END_SCRIPT

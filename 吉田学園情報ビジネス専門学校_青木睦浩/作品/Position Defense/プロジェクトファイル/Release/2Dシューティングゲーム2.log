@@ -1,0 +1,47 @@
+﻿  UI.cpp
+  bg.cpp
+  bullet.cpp
+  bullet_magazine.cpp
+  bullet_total.cpp
+  clear.cpp
+  effect.cpp
+  enemy.cpp
+  explosion.cpp
+  f_g_possession.cpp
+  fade.cpp
+  flash.cpp
+  flash_grenade.cpp
+  g_possession.cpp
+  game.cpp
+  grenade.cpp
+  high_score.cpp
+  input.cpp
+  input_gamepad.cpp
+  input_keyboard.cpp
+  コンパイル中...
+  item.cpp
+  life.cpp
+  main.cpp
+  manager.cpp
+  number.cpp
+  over.cpp
+  player.cpp
+  position.cpp
+  ranking.cpp
+  renderer.cpp
+  result.cpp
+  scene.cpp
+  scene2D.cpp
+  score.cpp
+  sound.cpp
+  straight.cpp
+  time.cpp
+  title.cpp
+  tutorial.cpp
+  コード生成しています。
+  275 of 452 functions (60.8%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    4 functions had inline decision re-evaluated but remain unchanged
+  コード生成が終了しました。
+  2Dシューティングゲーム2.vcxproj -> C:\Users\student\Documents\Visual Studio 2015\Projects\2Dシューティングゲーム2\Release\2Dシューティングゲーム2.exe
+  2Dシューティングゲーム2.vcxproj -> C:\Users\student\Documents\Visual Studio 2015\Projects\2Dシューティングゲーム2\Release\2Dシューティングゲーム2.pdb (Full PDB)

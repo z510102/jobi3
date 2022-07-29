@@ -1,0 +1,58 @@
+//=============================================================================
+//
+//		スクリプトファイル	[texture.txt]
+//		Author : OGASAWARA HYUGA
+//
+//=============================================================================
+SCRIPT
+
+//-----------------------------------------------------------------------------
+// テクスチャ数
+//-----------------------------------------------------------------------------
+NUM_TEXTURE = 25
+
+//-----------------------------------------------------------------------------
+// テクスチャ名(テクスチャのパス)
+//-----------------------------------------------------------------------------
+TEXTURE_FILENAME = data/TEXTURE/PUSHSPACE.png	# PUSHSPACE			0
+TEXTURE_FILENAME = data/TEXTURE/titlelogo.png	# ロゴ				1
+TEXTURE_FILENAME = data/TEXTURE/title_human.png	# タイトルの上の人	2
+TEXTURE_FILENAME = data/TEXTURE/titlebg.jpg		# タイトルの背景	3
+TEXTURE_FILENAME = data/TEXTURE/gamebg.png		# ゲームの背景		4
+TEXTURE_FILENAME = data/TEXTURE/wood.png		# 背景の木々		5
+TEXTURE_FILENAME = data/TEXTURE/clear.png		# ランキング背景	6
+TEXTURE_FILENAME = data/TEXTURE/menubg.jpg		# メニュー背景		7
+TEXTURE_FILENAME = data/TEXTURE/playlogo.png	# ゲームプレイicon	8
+TEXTURE_FILENAME = data/TEXTURE/helplogo.png	# チュートリアルicon9
+TEXTURE_FILENAME = data/TEXTURE/ranklogo.png	# ランキングicon	10
+TEXTURE_FILENAME = data/TEXTURE/returnlogo.png	# タイトル戻るicon	11
+TEXTURE_FILENAME = data/TEXTURE/starttext.png	# ゲームプレイtext	12
+TEXTURE_FILENAME = data/TEXTURE/helptext.png	# チュートリアルtext13
+TEXTURE_FILENAME = data/TEXTURE/ranktext.png	# ランキングtext	14
+TEXTURE_FILENAME = data/TEXTURE/titletext.png	# タイトル戻るtext	15
+TEXTURE_FILENAME = data/TEXTURE/start.png		# ゲームプレイ		16
+TEXTURE_FILENAME = data/TEXTURE/help.png		# チュートリアル	17
+TEXTURE_FILENAME = data/TEXTURE/ranking.png		# ランキング		18
+TEXTURE_FILENAME = data/TEXTURE/title.png		# タイトル戻る		19
+TEXTURE_FILENAME = data/TEXTURE/number000.png	# 数字1				20
+TEXTURE_FILENAME = data/TEXTURE/number001.png	# 数字2				21
+TEXTURE_FILENAME = data/TEXTURE/HPhaikei.png	# ゲージ背景		22
+TEXTURE_FILENAME = data/TEXTURE/HPhontai2.png	# ゲージ本体		23
+TEXTURE_FILENAME = data/TEXTURE/resultbg.png	# リザルト背景		24
+TEXTURE_FILENAME = data/TEXTURE/timeup.png		# タイムアップ		25
+TEXTURE_FILENAME = data/TEXTURE/GRank.png		# Gランク			26
+TEXTURE_FILENAME = data/TEXTURE/FRank.png		# Fランク			27
+TEXTURE_FILENAME = data/TEXTURE/ERank.png		# Eランク			28
+TEXTURE_FILENAME = data/TEXTURE/DRank.png		# Dランク			29
+TEXTURE_FILENAME = data/TEXTURE/CRank.png		# Cランク			30
+TEXTURE_FILENAME = data/TEXTURE/BRank.png		# Bランク			31
+TEXTURE_FILENAME = data/TEXTURE/ARank.png		# Aランク			32
+TEXTURE_FILENAME = data/TEXTURE/SRank.png		# Sランク			33
+TEXTURE_FILENAME = data/TEXTURE/plus.png		# プラス			34
+TEXTURE_FILENAME = data/TEXTURE/tutorial1.png	# チュートリアル1	35
+TEXTURE_FILENAME = data/TEXTURE/tutorial2.png	# チュートリアル2	36
+TEXTURE_FILENAME = data/TEXTURE/tutorial3.png	# チュートリアル3	37
+TEXTURE_FILENAME = data/TEXTURE/clear2.png		# ランキング背景	28
+TEXTURE_FILENAME = data/TEXTURE/field001.jpg	# フィールド		39
+
+END_SCRIPT

@@ -1,0 +1,23 @@
+#------------------------------------------------------------------------------
+# モデル数
+#------------------------------------------------------------------------------		
+PASNUM = 15
+		
+#------------------------------------------------------------------------------
+# モデルファイル名
+#------------------------------------------------------------------------------
+MODEL_FILENAME = data/MODEL/PLAYER/00_Body.x         #[0]     胴体_00
+MODEL_FILENAME = data/MODEL/PLAYER/01_Waist.x        #[1]       腰_01
+MODEL_FILENAME = data/MODEL/PLAYER/02_Head.x         #[2]       頭_02
+MODEL_FILENAME = data/MODEL/PLAYER/03_R_Shoulder.x   #[3]     右肩_03
+MODEL_FILENAME = data/MODEL/PLAYER/04_R_UpperArm.x   #[4]   右上腕_04
+MODEL_FILENAME = data/MODEL/PLAYER/05_R_Arm.x        #[5]     右腕_05
+MODEL_FILENAME = data/MODEL/PLAYER/06_L_Shoulder.x   #[6]     左肩_06
+MODEL_FILENAME = data/MODEL/PLAYER/07_L_UpperArm.x   #[7]   左上腕_07
+MODEL_FILENAME = data/MODEL/PLAYER/08_L_Arm.x        #[8]     左腕_08
+MODEL_FILENAME = data/MODEL/PLAYER/09_R_Thighs.x     #[9] 右太もも_09
+MODEL_FILENAME = data/MODEL/PLAYER/10_R_Leg.x        #[10]    右脚_10
+MODEL_FILENAME = data/MODEL/PLAYER/11_R_Foot.x       #[11]    右足_11
+MODEL_FILENAME = data/MODEL/PLAYER/12_L_Thighs.x     #[12]左太もも_12
+MODEL_FILENAME = data/MODEL/PLAYER/13_L_Leg.x        #[13]    左脚_13
+MODEL_FILENAME = data/MODEL/PLAYER/14_L_Foot.x       #[14]    左足_14
